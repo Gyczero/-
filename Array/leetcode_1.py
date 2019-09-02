@@ -7,7 +7,13 @@ from typing import List
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # """O(n^2)方法  空间O(1)"""
+        """
+        时间复杂度: O(n)
+        空间复杂度: O(n)
+        :param nums:
+        :param target:
+        :return:
+        """
         # for index1, i in enumerate(nums):
         #     for index2, j in enumerate(nums[index1+1: ]):
         #         if j == target - i:
