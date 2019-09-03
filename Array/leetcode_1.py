@@ -10,6 +10,7 @@ class Solution:
         """
         时间复杂度: O(n)
         空间复杂度: O(n)
+        注意点: 【查找】查找部分使用hash
         :param nums:
         :param target:
         :return:
@@ -19,7 +20,6 @@ class Solution:
         #         if j == target - i:
         #             return [index1, index1+1+index2]
 
-        """查找部分使用hash, O(n)方法,  空间O(n)"""
         tem_dict = {}
         for index, value in enumerate(nums):
             if value in tem_dict:

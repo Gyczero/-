@@ -9,12 +9,10 @@ from typing import List
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         """
-        [排序数组]
-        空间O(1) 且 必须原地修改输入数组
+        注意点：空间O(1) 且 必须原地修改输入数组
         => append, insert, remove first value, pop index, nums[0] = 1
         """
         # 时间 792ms
-        # 因为这里取0了，增加对空list的判断
         if not nums:
             return 0
 
