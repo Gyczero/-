@@ -2,15 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4c46efd-c0dd-4c82-9577-9a235cb487ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/leetcode26.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/leetcode_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/leetcode_copy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Easy/leetcode_118.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Easy/leetcode_119.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Easy/leetcode_121.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Easy/leetcode_122.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Easy/leetcode_167.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Easy/leetcode_169.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Medium/leetcode_11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Medium/leetcode_15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/Easy/leetcode_155.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/Easy/leetcode_20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/Easy/leetcode_232.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/算法练习.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/剑指offer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/剑指offer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/leetcode26.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/Easy/leetcode_26.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/leetcode_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/Easy/leetcode_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/leetcode_27.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/Easy/leetcode_27.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/leetcode_35.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/Easy/leetcode_35.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/leetcode_53.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/Easy/leetcode_53.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/leetcode_66.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/Easy/leetcode_66.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/leetcode_88.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/Easy/leetcode_88.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +44,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PaES76c7c7Jle6pOsKTBFB1W1T" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Array/Easy" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,9 +69,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.leetcode26">
-    <configuration name="leetcode26" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Leetcode" />
+  <component name="RunManager" selected="Python.leetcode_20">
+    <configuration name="leetcode_119" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -62,7 +82,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/leetcode26.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Easy/leetcode_119.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,8 +91,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leetcode_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Leetcode" />
+    <configuration name="leetcode_121" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -83,7 +103,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/leetcode_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Easy/leetcode_121.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,8 +112,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leetcode_copy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="leetcode_15" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array/Medium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Medium/leetcode_15.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="leetcode_169" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -104,7 +145,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/leetcode_copy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Easy/leetcode_169.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="leetcode_20" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stack/Easy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stack/Easy/leetcode_20.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,9 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.leetcode26" />
-        <item itemvalue="Python.leetcode_copy" />
-        <item itemvalue="Python.leetcode_1" />
+        <item itemvalue="Python.leetcode_20" />
+        <item itemvalue="Python.leetcode_15" />
+        <item itemvalue="Python.leetcode_169" />
+        <item itemvalue="Python.leetcode_121" />
+        <item itemvalue="Python.leetcode_119" />
       </list>
     </recent_temporary>
   </component>
