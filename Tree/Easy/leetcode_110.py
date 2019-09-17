@@ -22,7 +22,15 @@ class Solution:
         :param root:
         :return:
         """
+        if root is None:
+            return True
 
+        if self.isBalanced(root.left) and self.isBalanced(root.right):
+            left_depth = self._get_depth(root.left)
+            right_depth = self._get_depth(root.right)
+            if abs(left_depth - right_depth) <= 1:
+                return True
+        return False
 
     def _get_depth(self, root: TreeNode) -> int:
         """
@@ -30,4 +38,9 @@ class Solution:
         :param root:
         :return:
         """
-        
+        # 极端
+        if root is None:
+            return 0
+
+        # 递归
+        return 1 + max(self._get_depth(root.left), self._get_depth(root.right))
