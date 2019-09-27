@@ -1,0 +1,4 @@
+/Users/tugame/Desktop/leetcode_Github/C++/String/cmake-build-debug/CMakeFiles/28.dir
+/Users/tugame/Desktop/leetcode_Github/C++/String/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tugame/Desktop/leetcode_Github/C++/String/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tugame/Desktop/leetcode_Github/C++/String/cmake-build-debug/CMakeFiles/14.dir
