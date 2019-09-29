@@ -48,4 +48,3 @@ class Solution(object):
 if __name__ == '__main__':
     m = None
     s = Solution()
-    print s.isCousins(m, 5, 5)
