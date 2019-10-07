@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2019-09-15 16:20
+# @Author  : Frenkie
+# @Site    :
+# @File    : leetcode_100.py
+# @Software: PyCharm
+
+
 # Definition for a binary tree node.
 class TreeNode(object):
     def __init__(self, x):
@@ -48,4 +57,3 @@ class Solution(object):
 if __name__ == '__main__':
     m = None
     s = Solution()
-    print s.isCousins(m, 5, 5)
