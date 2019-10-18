@@ -2,17 +2,17 @@
 #include <typeinfo>
 using namespace std;
 
-        class Solution {
-        public:
-            int strStr(string haystack, string needle) {
-                // 【极限条件】如果needle为空，返回0
-                if (needle.empty()) {
-                    return 0;
-                }
+class Solution {
+public:
+    int strStr(string haystack, string needle) {
+        // 【极限条件】如果needle为空，返回0
+        if (needle.empty()) {
+            return 0;
+        }
 
-                if (haystack.empty()) {
-                    return -1;
-                }
+        if (haystack.empty()) {
+            return -1;
+        }
 
         // 获取needle的长度
         int needle_len = needle.length();

@@ -40,6 +40,7 @@ class Solution:
     思路比较复杂，增加清晰的思路代码
     """
 
+
 class Solution2(object):
     def merge(self, intervals):
         """
@@ -48,10 +49,10 @@ class Solution2(object):
         """
         if intervals == []:
             return []
+
         intervals.sort()
         begin = intervals[0][0]
         end = intervals[0][1]
-        print(intervals)
         res = list()
         for i in range(1, len(intervals)):
             if intervals[i][0] > end:
@@ -63,6 +64,7 @@ class Solution2(object):
                     end = intervals[i][1]
         res.append([begin, end])
         return res
+
 
 if __name__ == '__main__':
     print(Solution().merge([[2,3],[4,5],[6,7],[8,9],[1,10]]))

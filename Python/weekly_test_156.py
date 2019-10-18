@@ -34,7 +34,7 @@ class Solution:
         思路:
         1、两个字符串单字符相减
         2、转化为：数组 => 在maxCost下求最长子序列长度的问题
-        3、DP：maxlen(i) = max( maxlen(i-1) + len(array[i]+..<=Maxcost))
+        3、动态规划和贪心：maxlen(i) = max( maxlen(i-1) + len(array[i]+..<=Maxcost))
 
         问题：按照这样搞，时间复杂度为O(n^2), 时间复杂度过高
         解决方法：优化到O(n)的时间复杂度
