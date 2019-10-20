@@ -4,12 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/tugame/Desktop/leetcode_Github/C++/tree/leetcode_106_中序后续二叉树.cpp" "/Users/tugame/Desktop/leetcode_Github/C++/tree/cmake-build-debug/CMakeFiles/tree.dir/leetcode_106_中序后续二叉树.cpp.o"
+  "/Users/admin/Desktop/Leetcode_Github/C++/tree/leetcode_106_中序后续二叉树.cpp" "/Users/admin/Desktop/Leetcode_Github/C++/tree/cmake-build-debug/CMakeFiles/tree.dir/leetcode_106_中序后续二叉树.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../."
+  "."
   )
 
 # Targets to which this target links.
