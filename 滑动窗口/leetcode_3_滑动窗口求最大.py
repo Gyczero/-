@@ -3,7 +3,7 @@
 # @Time    : 2019-10-09 21:07
 # @Author  : Frenkie
 # @Site    : 
-# @File    : leetcode_3.py
+# @File    : leetcode_3_滑动窗口求最大.py
 # @Software: PyCharm
 
 from typing import List

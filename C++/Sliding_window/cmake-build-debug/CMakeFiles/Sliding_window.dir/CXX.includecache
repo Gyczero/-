@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tugame/Desktop/leetcode_Github/C++/Sliding_window/leetcode_3.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+set
+-
+
