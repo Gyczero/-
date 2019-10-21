@@ -38,11 +38,16 @@ class Solution:
 
         res = ""
         dp = [[0] * n for _ in range(n)]
+        max_len = float("-inf")
         # dp初始化 + dp推导
         for i in range(n):
             for j in range(i+1):
-                if s[i] == s[j] and (i-j)
-
+                if s[i] == s[j] and ((i-j) <=2 or dp[j+1][i-1]):
+                    dp[j][i] = 1
+                if dp[j][i] and max_len < i-j+1:
+                    res = s[j:i+1]
+                    max_len = i-j+1
+        return res
 
 
 if __name__ == '__main__':
