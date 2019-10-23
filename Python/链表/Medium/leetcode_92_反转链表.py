@@ -27,14 +27,54 @@ class Solution:
 
         m_pre, m_pointer, n_pre, n_pointer
         单独实现一个链表的反转
+
+        链表结构的变化
         :param head:
         :param m:
         :param n:
         :return:
         """
+        # 极端条件None or m==n ok
+        if not head or head.next is None:
+            return head
+
         dummy = ListNode(-1)
         dummy.next = head
+        # 双指针
         pre = dummy
+        now = head
+        iter = 1
+
+        # 跳过部分
+        while iter <= m:
+            if iter == m:
+                reverse_start = pre
+                reverse_end = now
+            pre = now
+            now = now.next
+            iter += 1
+
+        # 翻转部分
+        while m < iter <= n:
+            next_tmp = now.next
+            now.next = pre
+            pre = now
+            now = next_tmp
+            iter += 1
+
+        # 最后合并
+        reverse_start.next = pre
+        reverse_end.next = now
+        return dummy.next
+
+
+
+
+
+
+
+
+
 
 
 
