@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tugame/Desktop/leetcode_Github/C++/Array/leetcode_414.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+
