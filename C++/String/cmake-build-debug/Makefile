@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tugame/Desktop/leetcode_Github/C++/String
+CMAKE_SOURCE_DIR = /Users/admin/Desktop/Leetcode_Github/C++/String
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tugame/Desktop/leetcode_Github/C++/String/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/admin/Desktop/Leetcode_Github/C++/String/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tugame/Desktop/leetcode_Github/C++/String/cmake-build-debug/CMakeFiles /Users/tugame/Desktop/leetcode_Github/C++/String/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/Desktop/Leetcode_Github/C++/String/cmake-build-debug/CMakeFiles /Users/admin/Desktop/Leetcode_Github/C++/String/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tugame/Desktop/leetcode_Github/C++/String/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/Desktop/Leetcode_Github/C++/String/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,124 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named String
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test
-.PHONY : test
+String: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 String
+.PHONY : String
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+String/fast:
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/build
+.PHONY : String/fast
 
-#=============================================================================
-# Target rules for targets named 28
+leetcode_344.o: leetcode_344.cpp.o
 
-# Build rule for target.
-28: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 28
-.PHONY : 28
-
-# fast build rule for target.
-28/fast:
-	$(MAKE) -f CMakeFiles/28.dir/build.make CMakeFiles/28.dir/build
-.PHONY : 28/fast
-
-#=============================================================================
-# Target rules for targets named 14
-
-# Build rule for target.
-14: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 14
-.PHONY : 14
-
-# fast build rule for target.
-14/fast:
-	$(MAKE) -f CMakeFiles/14.dir/build.make CMakeFiles/14.dir/build
-.PHONY : 14/fast
-
-leetcode_14.o: leetcode_14.cpp.o
-
-.PHONY : leetcode_14.o
+.PHONY : leetcode_344.o
 
 # target to build an object file
-leetcode_14.cpp.o:
-	$(MAKE) -f CMakeFiles/14.dir/build.make CMakeFiles/14.dir/leetcode_14.cpp.o
-.PHONY : leetcode_14.cpp.o
+leetcode_344.cpp.o:
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/leetcode_344.cpp.o
+.PHONY : leetcode_344.cpp.o
 
-leetcode_14.i: leetcode_14.cpp.i
+leetcode_344.i: leetcode_344.cpp.i
 
-.PHONY : leetcode_14.i
-
-# target to preprocess a source file
-leetcode_14.cpp.i:
-	$(MAKE) -f CMakeFiles/14.dir/build.make CMakeFiles/14.dir/leetcode_14.cpp.i
-.PHONY : leetcode_14.cpp.i
-
-leetcode_14.s: leetcode_14.cpp.s
-
-.PHONY : leetcode_14.s
-
-# target to generate assembly for a file
-leetcode_14.cpp.s:
-	$(MAKE) -f CMakeFiles/14.dir/build.make CMakeFiles/14.dir/leetcode_14.cpp.s
-.PHONY : leetcode_14.cpp.s
-
-leetcode_28.o: leetcode_28.cpp.o
-
-.PHONY : leetcode_28.o
-
-# target to build an object file
-leetcode_28.cpp.o:
-	$(MAKE) -f CMakeFiles/28.dir/build.make CMakeFiles/28.dir/leetcode_28.cpp.o
-.PHONY : leetcode_28.cpp.o
-
-leetcode_28.i: leetcode_28.cpp.i
-
-.PHONY : leetcode_28.i
+.PHONY : leetcode_344.i
 
 # target to preprocess a source file
-leetcode_28.cpp.i:
-	$(MAKE) -f CMakeFiles/28.dir/build.make CMakeFiles/28.dir/leetcode_28.cpp.i
-.PHONY : leetcode_28.cpp.i
+leetcode_344.cpp.i:
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/leetcode_344.cpp.i
+.PHONY : leetcode_344.cpp.i
 
-leetcode_28.s: leetcode_28.cpp.s
+leetcode_344.s: leetcode_344.cpp.s
 
-.PHONY : leetcode_28.s
-
-# target to generate assembly for a file
-leetcode_28.cpp.s:
-	$(MAKE) -f CMakeFiles/28.dir/build.make CMakeFiles/28.dir/leetcode_28.cpp.s
-.PHONY : leetcode_28.cpp.s
-
-test.o: test.cpp.o
-
-.PHONY : test.o
-
-# target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
-.PHONY : test.cpp.o
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
+.PHONY : leetcode_344.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
-.PHONY : test.cpp.s
+leetcode_344.cpp.s:
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/leetcode_344.cpp.s
+.PHONY : leetcode_344.cpp.s
 
 # Help Target
 help:
@@ -236,20 +156,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... test"
-	@echo "... 28"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... 14"
-	@echo "... leetcode_14.o"
-	@echo "... leetcode_14.i"
-	@echo "... leetcode_14.s"
-	@echo "... leetcode_28.o"
-	@echo "... leetcode_28.i"
-	@echo "... leetcode_28.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... String"
+	@echo "... leetcode_344.o"
+	@echo "... leetcode_344.i"
+	@echo "... leetcode_344.s"
 .PHONY : help
 
 

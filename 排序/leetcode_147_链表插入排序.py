@@ -42,12 +42,12 @@ class Solution:
                     pre_now.next = now.next
                     pre_pointer.next = now
                     now.next = pointer
-                    now =
+                    now = pre_now
                     break
                 pre_pointer = pointer
                 pointer = pointer.next
 
-            pointer = head
+            pointer = dummy.next
             pre_pointer = dummy
             pre_now = now
             now = now.next
