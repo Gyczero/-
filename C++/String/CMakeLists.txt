@@ -3,4 +3,4 @@ project(String)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(String  leetcode_344.cpp)
+add_executable(String  leetcode_58.cpp)
